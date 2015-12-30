@@ -6,7 +6,7 @@ describe "findHouseNumber", ->
     assert.equal findHouseNumber(130), 8
   input = 36000000
   it "solves puzzle 1", ->
-    nr = findHouseNumber input,
+    nr = findHouseNumber input
     console.log "House #{nr} got at least #{input} presents."
   it "solves puzzle 2", ->
     nr = findHouseNumber input,
