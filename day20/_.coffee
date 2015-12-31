@@ -22,7 +22,7 @@ findHouseNumber = (count, options = {}) ->
     --multiplier: int - present multiplier [default: 10]
     --visitLimit: int - limits the number of houses an elf can visit
   ###
-  options.multiplier = options.multiplier || 10;
+  options.multiplier = options.multiplier ? 10;
   houses = (0 for [1..(count / options.multiplier)])
   for i in [1...houses.length]
     visited = 0
