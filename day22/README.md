@@ -1,3 +1,5 @@
+# Example solution
+
     Boss: 71 | Player: 50/0/500 -> Poison
     Boss: 68 | Player: 40/0/327 (poison:5)
     Boss: 65 | Player: 40/0/327 (poison:4) -> Recharge
